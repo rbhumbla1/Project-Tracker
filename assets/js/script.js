@@ -49,7 +49,7 @@ submitBtn.on('click', function (event) {
     //add the latest userScore to the ScoreList
     projList[projList.length] = rowData;
 
-    //weite scoreList to local storage
+    //write scoreList to local storage
     localStorage.setItem("projList", JSON.stringify(projList));
 
     // Empty out after add to prepare for next add
